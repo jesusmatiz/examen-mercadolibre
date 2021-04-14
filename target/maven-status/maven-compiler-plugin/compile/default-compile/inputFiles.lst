@@ -1,0 +1,15 @@
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\data\repositories\MutanStatisticsRepository.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\exceptions\ApiErrorResponse.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\dto\StatisticsResponse.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\api\ApiController.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\enums\ErrorEnum.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\exceptions\GlobalControllerAdvice.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\utils\CustomMD5.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\data\entities\MutanStatistics.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\business\interfaces\IHumanService.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\utils\GsonUtils.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\exceptions\ApiException.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\validator\HumanValidator.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\dto\HumanAdn.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\business\implementations\HumanService.java
+D:\workspace-eclipse\ExamenMercadoLibre\src\main\java\com\mercadolibre\app\ExamenMercadoLibreApplication.java

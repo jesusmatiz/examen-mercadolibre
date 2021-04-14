@@ -1,0 +1,49 @@
+version: '3.7'
+
+services: 
+
+  database:
+    build:
+      context: .
+      dockerfile: mysql.dockerfile
+    container_name: mysql
+    restart: always
+    ports:
+      - 23306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "mercadolibre.2020"
+      MYSQL_DATABASE: "mutantesdb"
+    volumes:
+      - ./database:/var/lib/mysql:rw
+    networks:
+      mercadolibre_network:
+        aliases:
+          - mysql_host
+  api:
+    build: 
+      context: .
+      dockerfile: app.dockerfile
+    container_name: examen-mercadolibre
+    restart: always
+    environment: 
+      MYSQL_HOST: mysql_host
+      MYSQL_PORT: 3306
+    ports: 
+      - 8000:8000
+    volumes: 
+      - ./app:/home
+    depends_on: 
+      - database
+    networks:
+      mercadolibre_network:
+        aliases:
+          - api_host
+
+volumes: 
+  app: {}
+  database: {}
+  scriptsql: {}
+networks: 
+  mercadolibre_network:
+    name: mercadolibre_net
+    driver: bridge

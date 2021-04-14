@@ -1,0 +1,15 @@
+com\mercadolibre\app\validator\HumanValidator.class
+com\mercadolibre\app\business\implementations\HumanService.class
+com\mercadolibre\app\enums\ErrorEnum.class
+com\mercadolibre\app\ExamenMercadoLibreApplication.class
+com\mercadolibre\app\data\repositories\MutanStatisticsRepository.class
+com\mercadolibre\app\business\interfaces\IHumanService.class
+com\mercadolibre\app\dto\HumanAdn.class
+com\mercadolibre\app\utils\CustomMD5.class
+com\mercadolibre\app\dto\StatisticsResponse.class
+com\mercadolibre\app\exceptions\ApiErrorResponse.class
+com\mercadolibre\app\utils\GsonUtils.class
+com\mercadolibre\app\api\ApiController.class
+com\mercadolibre\app\data\entities\MutanStatistics.class
+com\mercadolibre\app\exceptions\GlobalControllerAdvice.class
+com\mercadolibre\app\exceptions\ApiException.class
